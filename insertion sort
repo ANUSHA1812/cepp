@@ -22,5 +22,9 @@ while(d>0&& arr[d]<arr[d-1])
   d--;
 }
 
+for(c=0;c<=n-1;c++)
+{
+  printf("%d",arr);
+}
 getch();
 }
