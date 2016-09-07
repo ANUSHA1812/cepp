@@ -17,11 +17,11 @@ fclose(fp);
 for(i=0;i<3;i++)
 {
 if (a[i]>b[i])
-  alice score++;
+  alicescore++;
 else if (a[i]<b[i])
   bobscore++;
 }
-fp=freopen("write,txt","w",stdout);
+fp=freopen("write.txt","w",stdout);
 printf("%d%d",alicescore,bobscore);
 fclose(fp);
 return 0;
