@@ -1,0 +1,29 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+int sum=0,n,a[20],i,j,pos1,pos2;
+printf("enter the limit");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+  scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+  for(j=i+1;j<n-1;j++)
+
+{
+  sum=abs(a[i]+a[j]);
+}
+if(sum<min)
+{
+  min=sum;
+  pos1=i;
+  pos2=j;
+}
+printf("indices are %d%d,a[pos1],a[pos2]);
+}
+return 0;
+
+}
