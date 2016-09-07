@@ -1,7 +1,0 @@
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
-int i,a[3],b[3],alicescore=0,bobscore=0;
-FILE *fp;
-fp=freopen("rea
